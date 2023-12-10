@@ -1,0 +1,36 @@
+.introduction
+{
+    padding-top: 7vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+
+.introstuff
+{
+    display: flex;
+    align-items: center;
+}
+
+.introtext
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-right: 3vw;
+    color: white;
+}
+
+.redbar
+{
+    width: 7vw;
+    height: 1vw;
+    background-color: red;
+}
+
+.mypic
+{
+    width: 35vw;
+    border-radius: 17.5vw;
+}
+
