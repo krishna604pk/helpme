@@ -1,10 +1,9 @@
 import React from "react";
-import Me from './images/Me.png'
+import Me from './images/Me.png';
 
 function Introduction()
 {
-    return
-    (
+    return (
         <div id="in" className="container introduction">
             <div className="introstuff">
                 <div className="introtext">
@@ -19,7 +18,7 @@ function Introduction()
                     <p style={{ fontSize: "1.5vw" }}>I am an Associate Member of Student Welfare Group.</p>
                     <p style={{ fontSize: "1.5vw" }}>And a Junior Coordinator of NSSC</p>
                 </div>
-                <img className="mypic" alt="Krishna Picture" src="Me.png" />
+                <img className="mypic" alt="Krishna Picture" src={Me.png} />
             </div>
         </div>
     );
